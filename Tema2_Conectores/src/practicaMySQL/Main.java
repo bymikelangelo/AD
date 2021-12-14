@@ -9,6 +9,7 @@ public class Main {
 		Scanner teclado = new Scanner(System.in);
 
 		System.out.println("Elige tipo de busqueda: ");
+		
 		System.out.println("1 - Listado de todos los libros.\n" + 
 				"2 - Listado de todos los socios.\n" + "1 - Listado de todos los prestamos.\n" + 
 				"4 - Listado de todos los libros prestados actualmente.\n" + "5 - Número de libros prestados a un socio determinado.\n" + 
