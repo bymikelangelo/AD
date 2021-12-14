@@ -8,6 +8,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/home/mikelangelo/Documentos/JAR extensiones/mysql-connector-java-5.1.4-bin.jar"/>
 	<classpathentry kind="lib" path="/home/mikelangelo/Documentos/JAR extensiones/sqlite-jdbc-3.36.0.3.jar"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="/home/mikelangelo/Documentos/JAR extensions/mysql-connector-java-5.1.4-bin.jar"/>
+=======
+>>>>>>> refs/remotes/origin/master
 	<classpathentry kind="output" path="bin"/>
 </classpath>
