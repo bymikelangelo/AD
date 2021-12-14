@@ -11,8 +11,10 @@ public class ConectorMySQL {
 	public String buscar(int tipoConsulta, String tabla) throws SQLException, InstantiationException, 
 	IllegalAccessException, ClassNotFoundException{
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
+//		conexion = DriverManager.getConnection
+//				("jdbc:mysql://192.168.3.88/biblioteca", "admin", "admin");
 		conexion = DriverManager.getConnection
-				("jdbc:mysql://192.168.3.88/ejemplo", "ejemplo", "ejemplo");
+				("jdbc:mysql://192.168.8.138/biblioteca", "admin", "admin");
 				
 		sentencia = conexion.createStatement();
 		switch (tipoConsulta) {
